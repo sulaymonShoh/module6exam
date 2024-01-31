@@ -9,10 +9,10 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="alert alert-{{ message.tags }}">
-                    <h6>Django messages might be shown here</h3>
+                    <h3>Django messages might be shown here</h3>
                 </div>
                 <article class="media content-section">
-                    <img class="rounded-circle article-img" src="corey.jpeg">
+                    <img class="rounded-circle article-img" src="{% static 'img/corey.jpeg' %}">
                     <div class="media-body">
                         <div class="article-metadata">
                             <a class="mr-2" href="user_posts.html">Jordan Gibbs</a>
@@ -22,7 +22,7 @@
                     </div>
                 </article>
                 <article class="media content-section">
-                    <img class="rounded-circle article-img" src="gibbs.jpeg">
+                    <img class="rounded-circle article-img" src="{% static 'img/gibbs.jpeg' %}">
                     <div class="media-body">
                         <div class="article-metadata">
                             <a class="mr-2" href="user_posts.html">Jordan Gibbs </a>
