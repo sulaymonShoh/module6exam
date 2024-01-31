@@ -13,3 +13,9 @@ class HomeView(View):
         }
 
         return render(request, 'home.html', context=context)
+
+
+class PostDetailView(DetailView):
+    template_name = "post_detail.html"
+    model = Post
+    context_object_name = "post"
